@@ -1,0 +1,6 @@
+library(RWeka)
+#southSudan <- refugees_to_kenya_cleaned
+#write.arff(southSudan, file = "refugees_to_kenya_cleaned.arff")
+
+all_neighbor_countries <- refugees_to_neighbor_countries_cleaned
+write.arff(all_neighbor_countries , file = "refugees_to_neighbor_countries.arff")
