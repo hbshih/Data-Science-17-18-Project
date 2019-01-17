@@ -4,3 +4,6 @@ library(RWeka)
 
 all_neighbor_countries <- refugees_to_neighbor_countries_cleaned
 write.arff(all_neighbor_countries , file = "refugees_to_neighbor_countries.arff")
+
+df <- Violence_against_civilians_Incidents
+write.arff(df, file = "violence_against_civilians_incidents.arff")
