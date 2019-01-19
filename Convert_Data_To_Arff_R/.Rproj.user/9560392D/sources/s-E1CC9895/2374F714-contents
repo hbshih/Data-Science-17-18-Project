@@ -11,4 +11,11 @@ df <- refugees_from_southsudan_with_difference
 df$Date <- as.Date(df$date, format = "%Y-%m-%d")
 write.arff(df, file = "refugees_from_southsudan_with_dif.arff" )
 
+df <- refugees_to_Uganda_cleaned
+df$Date <- as.Date(df$date, format = "%Y-%m-%d")
+write.arff(df, file = "refugees_to_uganda.arff" )
+
+df <- refugees_to_neighbor_countries_cleaned
+df$Date <- as.Date(df$date, format = "%Y-%m-%d")
+write.arff(df, file = "refugees_to_neighborhood_countries.arff" )
 
