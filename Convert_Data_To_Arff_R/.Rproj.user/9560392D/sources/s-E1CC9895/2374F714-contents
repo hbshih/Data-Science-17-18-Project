@@ -19,3 +19,7 @@ df <- refugees_to_neighbor_countries_cleaned
 df$Date <- as.Date(df$date, format = "%Y-%m-%d")
 write.arff(df, file = "refugees_to_neighborhood_countries.arff" )
 
+df <- ACLED_south.sudan_cleaned
+df$Date <- as.Date(df$date, format = "%Y-%m-%d")
+write.arff(df, file = "ACLED_SouthSudan.arff" )
+
