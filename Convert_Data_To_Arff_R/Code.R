@@ -23,3 +23,37 @@ df <- ACLED_south.sudan_cleaned
 df$Date <- as.Date(df$date, format = "%Y-%m-%d")
 write.arff(df, file = "ACLED_SouthSudan.arff" )
 
+df <- violence_events_df_2016
+df$Date <- as.Date(df$event_date, format = "%Y-%m-%d")
+write.arff(df, file = "Violence_events_2016.arff" )
+
+df <- violence_events_against_civilians
+df$Date <- as.Date(df$event_date, format = "%Y/%m/%d")
+write.arff(df, file = "violence_events_against_civilians.arff" )
+
+df <- violence_events_df_war_year
+df$Date <- as.Date(df$event_date, format = "%Y/%m/%d")
+write.arff(df, file = "violence_events_df_war_year.arff" )
+
+df <- refugees_movement_with_violence_event_type
+df$Date <- as.Date(df$date, format = "%Y-%m-%d")
+write.arff(df, file = "refugees_movement_with_violence_event_type.arff" )
+
+df <- refugees_movement_with_violence_region
+df$Date <- as.Date(df$date, format = "%Y-%m-%d")
+write.arff(df, file = "refugees_movement_with_violence_region.arff" )
+
+df <- refugees_movement_w_violence_region_and_event_type
+df$Date <- as.Date(df$date, format = "%Y-%m-%d")
+write.arff(df, file = "refugees_movement_w_violence_region_and_event_type.arff" )
+
+df <- need_to_change
+df$Date <- as.Date(df$date, format = "%Y-%m-%d")
+write.arff(df, file = "need_to_change.arff" )
+
+df <- refugees_movement_with_violence_type_by_month
+df$Date <- as.Date(df$date, format = "%Y-%m-%d")
+write.arff(df, file = "refugees_movement_with_violence_type_by_month.arff" )
+
+
+
