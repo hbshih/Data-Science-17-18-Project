@@ -55,5 +55,25 @@ df <- refugees_movement_with_violence_type_by_month
 df$Date <- as.Date(df$date, format = "%Y-%m-%d")
 write.arff(df, file = "refugees_movement_with_violence_type_by_month.arff" )
 
+df <- refugees_movement_w_violence_region_and_type_by_month
+write.arff(df, file = "refugees_movement_w_violence_region_and_type_by_month.arff" )
+
+df <- refugees_T_F_V_P_full_data
+write.arff(df, file = "refugees_T_F_V_P_full_data.arff" )
+
+df <- refugees_movement_w_v_region_and_type_by_month_class
+write.arff(df, file = "refugees_movement_w_v_region_and_type_by_month_class.arff" )
+
+df <- refugees_T_F_V_P_full_data
+write.arff(df, file = "refugees_T_F_V_P_full_data.arff" )
+
+df <- refugees_T_F_V_P_full_data_wclass
+write.arff(df, file = "refugees_T_F_V_P_full_data_wclass.arff" )
+
+df <- categorized_T_F_V_P
+write.arff(df, file = "categorized_T_F_V_P.arff" )
+
+
+
 
 
