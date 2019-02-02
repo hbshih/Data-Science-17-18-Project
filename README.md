@@ -39,7 +39,7 @@ The datasets are provided by the United Nations Refugee Agency (UNCHR). More dat
 * **Hau-Ben Benjamin Shih** - *Preparation and Modeling* - [Ben](https://github.com/hbshih)
 Contact h.b.shih@student.utwente.nl
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/hbshih/South-Sudan-Refugees-Displacement/graphs/contributors) who participated in this project.
 
 
 ## Acknowledgments
