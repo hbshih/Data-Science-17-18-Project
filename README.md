@@ -36,9 +36,8 @@ The datasets are provided by the United Nations Refugee Agency (UNCHR). More dat
 
 ## Authors
 
-* **Hau-Ben Benjamin Shih** - [Ben](https://github.com/hbshih)
+* **Hau-Ben Benjamin Shih** - [Ben](https://github.com/hbshih) Contact h.b.shih@student.utwente.nl
 * **Yi-Hsiou Hsu** - [goodian12](https://github.com/goodian12)
-Contact h.b.shih@student.utwente.nl
 
 See also the list of [contributors](https://github.com/hbshih/South-Sudan-Refugees-Displacement/graphs/contributors) who participated in this project.
 
